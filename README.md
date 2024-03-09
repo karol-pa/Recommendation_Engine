@@ -61,7 +61,7 @@ The methods are also tested against a "dummy" model, whis is: 5 products are dra
    pip install -r requirements.txt
    ```
 
-3. **Run the notebooks in Jupyter Lab or VSCode **
+3. Run the notebooks in Jupyter Lab or VSCode
 
 ## **Contributions**
 
