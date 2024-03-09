@@ -33,7 +33,7 @@ The methods are also tested against a "dummy" model, whis is: 5 products are dra
 
 
 
-## Project Structure
+## Project Files
 
 - **data/**: The directory containing the dataset files (original input from Kaggle as `*.csv` and cleaned data as `*.pkl`).
 - **EDA_and_cleaning.ipynb**: This notebook contains the preparation of the data.
