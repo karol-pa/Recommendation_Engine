@@ -15,14 +15,14 @@ The dataset contains two main types of information that can be leveraged for a r
 3. Information about items, their quantity and price that were bought together
 
 Number 1 enables us to segment products into classes of products.\
-Number 2 allows us then to (a) identify customers with similar interests, and (b) associate products and classes of products with those customers.
+Number 2 allows us to (a) identify customers with similar interests, and (b) associate products and classes of products with those customers.
 
 By combining 1 and 2, one can, for each customer A
 - identify another customer B that has the most similar interests to customer A
 - identify the product classes associated with customer A's purchased items
 - recommend products from these classes to customer B 
 
-For the product segmentation, I create word embeddings from the `Describtion` column and apply an Agglomerative Clustering algorithm to group the products into classes.\
+For the product segmentation, I create word embeddings from the `Describtion` data column and apply an Agglomerative Clustering algorithm to group the products into classes.\
 The customer similarity is quantified using the concept of cosine similarity to find each customer's "next neighbor".
 
 For the final recommendation, I test two methods:
